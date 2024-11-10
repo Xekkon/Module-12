@@ -12,7 +12,7 @@ def open_weather(city):
 def temp_celsius(kelvin):
     return kelvin - 273.15
 
-city = input("Enter city: ")
+city = input("Enter a city: ")
 status_code, weather_data = open_weather(city)
 
 if status_code == 200:
